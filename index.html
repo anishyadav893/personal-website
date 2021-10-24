@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Anish Yadav </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="main hidden">
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">Home</a></li>
+                  <li><a href="#about" class="nav-item link-item">About</a></li>
+                  <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
+                  <li><a href="#contact" class="nav-item link-item">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <section class="home-section align-items-center" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>Hello, I'm</p>
+              <h1>Anish Yadav</h1>
+              <h2 id="typedtext">An ordinary person <br>with extraordinary dreams . . .</h2>
+              <a href="#about" class="btn link-item">Know More!</a>
+              <a href="https://anish893-portfolio.netlify.app" class="btn link-item" target="_blank">Portfolio Website</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="img/profile-img.png" alt="profile-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="img/about-img.jpg" alt="about-img">
+              </div>
+            </div>
+            <div class="about-text">
+              <p>I am an MIS graduate from <strong>Santa Clara University</strong> <em>(CA, USA)</em> and a tech person with a genuine passion for software development. To give a brief overview of my background, I have hands-on experience in managing the frontend and server-side requirements of full-stack web applications and am well-versed with OOP concepts and technologies such as React, Node.js, Flask, REST APIs, AJAX, GraphQL, to name a few.</p>
+              <a href="cv.pdf" target="_blank" class="btn"><i class="fas fa-download"></i> Resume</a>
+              <a href="#contact" class="btn link-item">Contact Me</a>
+              <h3>Skills</h3>
+              <div class="skills">
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Java</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">TypeScript</div>
+                <div class="skill-item">MERN stack</div>
+                <div class="skill-item">HTML/CSS</div>
+                <div class="skill-item">React</div>
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">Django</div>
+                <div class="skill-item">Flask</div>
+                <div class="skill-item">REST APIs</div>
+                <div class="skill-item">GraphQL</div>
+                <div class="skill-item">Git</div>
+                <div class="skill-item">Linux</div>
+                <div class="skill-item">Docker</div>
+                <div class="skill-item">Kubernetes</div>
+                <div class="skill-item">AWS</div>
+              </div>
+
+              <div class="about-tabs">
+                <button type="button" class="tab-item active" data-target="#education">Education</button>
+                <button type="button" class="tab-item" data-target="#experience">Experience</button>
+                <button type="button" class="tab-item" data-target="#otherjobs">Other Jobs</button>
+              </div>
+
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">June '21</span>
+                    <h4>Santa Clara University</h4>
+                    <h5>M.S. in Informations Systems</h5>
+                    <p>
+                      <strong>Relevant Courses :</strong> Object-Oriented Programming, Database Management Systems, Web Programming, Mobile Programming, Database Analysis-Design & Management, Software Project Management, Cloud Computing Architectures
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">August '18</span>
+                    <h4>IIT Bombay</h4>
+                    <h5>B.Tech. in Metallurgical Engg. & Materials Science</h5>
+                    <p>
+                      <strong>Relevant Courses :</strong> Computer Programming, Data Analysis & Interpretation, Electical Circuits, Instrumentation & Process Control
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">Apr '20 - Dec '20</span>
+                    <h4>Data Analyst Intern</h4>
+                    <h5>Atollogy</h5>
+                    <ul>
+                      <li>Automated process of extracting license plate numbers from vehicle images to eliminate errors and increased operational efficiency by 5%</li>
+                      <li>Developed a customized evaluation matrix for correcting license plate numbers differing by single digit and reduced human effort by 90%</li>
+                      <li>Trained Random Forest classifier model to account for missing data, cross-validated results with manual entries and achieved 95% prediction accuracy</li>
+                    </ul>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">Aug '18 - Apr '19</span>
+                    <h4>Data Analyst</h4>
+                    <h5>Proliferator Advisory & Consulting</h5>
+                    <ul>
+                      <li>Identified most profitable customers and increased return on investment by 21%</li>
+                      <li>Implemented k-means clustering on customer data, segmented data by profitability to achieve targeted marketing</li>
+                      <li>Evaluated data imported from PostgreSQL database in Jupyter Notebook and visualized trends in Tableau</li>
+                    </ul>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">May '15 - July '15</span>
+                    <h4>Data Analyst Intern</h4>
+                    <h5>Growdiesel Ventures</h5>
+                    <ul>
+                      <li>Developed an analytical model from collected data to review deficiencies in data, identify trends and gain actionable insights</li>
+                      <li>Built engaging data visualizations and dashboards to help managers isolate insights in accordance with business and information needs</li>
+                    </ul>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">May '13 - July '13</span>
+                    <h4>Systems Engineer</h4>
+                    <h5>Shruti Icemac Engineers</h5>
+                    <ul>
+                      <li>Identified light-weight materials for reducing weight of ice cream equipment to minimize cost of machinery and improve efficiency</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-content" id="otherjobs">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">Dec '19 - Jun '21</span>
+                    <h4>Library Student Worker</h4>
+                    <h5>Santa Clara University</h5>
+                    <ul>
+                      <li>Provided friendly, competent assistance at a central service desk while maintaining library records and inventory in an efficient manner</li>
+                      <li>Performed regular walk-throughs of library space and oversaw check-out process for books and other resource materials</li>
+                      <li>Performed ARS inventory audits and troubleshoot equipment malfunctions and in a timely manner</li>
+                    </ul>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">Jul '15 - Apr '19</span>
+                    <h4>Volunteer</h4>
+                    <h5>Growdiesel Ventures</h5>
+                    <ul>
+                      <li>Managed project scope, finalized deliverables and established a roadmap for estimating completion time of project</li>
+                      <li>Examined expenditures, resolved complications within project and tracked empirical progress for comparison of actual performance against scheduled performance</li>
+                      <li>Prepared business reports and communicated changes to project scope, scheduling and costs to stakeholders for future productivity planning</li>
+                    </ul>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">Jun '14 - Apr '15</span>
+                    <h4>Cultural Mentor</h4>
+                    <h5>Muskaan Initiative</h5>
+                    <ul>
+                      <li>Volunteered for weekend classes to teach dance to the underprivileged kids of society</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Technical Projects (Check <a href="https://github.com/anishyadav893" target="_blank">GitHub</a> for more)</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/1.png" alt="portfolio item thumb">
+              </div>
+              <h3 class="portfolio-item-title">Messaging App</h3>
+              <button type="button" class="btn view-project-btn">View Project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Created a chat application written in JavaScript with backend server hosted on chatengine. The frontend is developed using React and the app uses WebSockets for real-time updates and communication between users. In addition, it imparts the functionality of uploading images to the chat, sound notifications on new messages and ability to create multiple rooms.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li><strong>Tech Stack - </strong>JavaScript, React, chatengine, WebSockets</li>
+                    <li><strong>Source Code - </strong><a href="https://github.com/anishyadav893/messaging-app-reactjs" target="_blank">https://github.com/anishyadav893/messaging-app-reactjs</a></li>
+                    <li><strong>Live Website - </strong><a href="https://chat-app-anishyadav.netlify.app/" target="_blank">https://chat-app-anishyadav.netlify.app/</a></li>
+                    <li><em>Username</em> - admin | <em>Password</em> - 12345</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/2.png" alt="portfolio item thumb">
+              </div>
+              <h3 class="portfolio-item-title">Zoom Clone</h3>
+              <button type="button" class="btn view-project-btn">View Project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Developed a Zoom clone with similar features to the video-calling app. Server-side code is written using Express framework and set up in a Node.js run-time environment. Web sockets handle the sending and receiving connection requests which are sent as HTTP packets that contain information about the client-server interaction.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li><strong>Tech Stack - </strong>JavaScript, Node.js, socket-io, nodemon server, uuid library</li>
+                    <li><strong>Source Code - </strong><a href="https://github.com/anishyadav893/zoom-clone-nodejs" target="_blank">https://github.com/anishyadav893/zoom-clone-nodejs</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/3.png" alt="portfolio item thumb">
+              </div>
+              <h3 class="portfolio-item-title">Customer Rating Form</h3>
+              <button type="button" class="btn view-project-btn">View Project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Created a feedback submission form using the Flask framework which adds a user's feedback to a PostgreSQL database and confirms the feedback submission via mailtrap. The form validates the input of necessary information and makes use of the different kinds of input fields.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li><strong>Tech Stack - </strong>Python, Flask, HTML/CSS, mailtrap</li>
+                    <li><strong>Source Code - </strong><a href="https://github.com/anishyadav893/feedback-form-flask" target="_blank">https://github.com/anishyadav893/feedback-form-flask</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/4.png" alt="portfolio item thumb">
+              </div>
+              <h3 class="portfolio-item-title">Workout Tracker</h3>
+              <button type="button" class="btn view-project-btn">View Project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Developed a workout information logging application with React on the frontend, nodemon server for setting up JavaScript environment in Express and the database is on MongoDB Atlas. Users can log their progress and see past entries as well. The application makes extensive use of the MERN stack.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li><strong>Tech Stack - </strong>MongoDB, Express, React, Node.js</li>
+                    <li><strong>Source Code - </strong><a href="https://github.com/anishyadav893/workout-tracker-mern" target="_blank">https://github.com/anishyadav893/workout-tracker-mern</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/5.png" alt="portfolio item thumb">
+              </div>
+              <h3 class="portfolio-item-title">Trivia App</h3>
+              <button type="button" class="btn view-project-btn">View Project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Deployed a quiz app built with React on Netlify which makes an external API call to the open trivia database and generates a random set of questions. The user can immediately see the correct answer after choosing an option and the points are added to the current score if the answer is correct.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li><strong>Tech Stack - </strong>TypeScript, React, Netlify, opentdb</li>
+                    <li><strong>Source Code - </strong><a href="https://github.com/anishyadav893/quiz-app-react" target="_blank">https://github.com/anishyadav893/quiz-app-react</a></li>
+                    <li><strong>Live Website - </strong><a href="https://gk-quiz-app.netlify.app/" target="_blank">https://gk-quiz-app.netlify.app/</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/6.png" alt="portfolio item thumb">
+              </div>
+              <h3 class="portfolio-item-title">Facebook Clone</h3>
+              <button type="button" class="btn view-project-btn">View Project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Developed a Facebook clone built with React that uses context API to make data available for use by each component, Flexbox for responsiveness, react-flip-move for animations and validates users via Google authentication.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li><strong>Tech Stack - </strong>React, Context API, Firebase, google-auth</li>
+                    <li><strong>Source Code - </strong><a href="https://github.com/anishyadav893/facebook-clone-reactjs" target="_blank">https://github.com/anishyadav893/facebook-clone-reactjs</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Personal Information</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <div class="contact-info-item">
+                <h3><strong><a href="https://www.linkedin.com/in/growdiesel/" target="_blank">Atul Saxena</a></strong> - LOR <span style="font-size: 14px">(Chairman, Growdiesel Ventures)</span></h3>
+                <p class="reco">I have known Anish for many years now and I have keenly observed his work and seen him grow not only as a part of my organization but into a mature man as well. I had the opportunity to supervise and mentor Anish in various projects and the skills that really stood out were his sense of execution without much guidance and seeing the project till delivery. He quickly grew ranks in the team from intern to Associate Project Manager - Volunteer.</p>
+              </div>
+
+              <div class="contact-info-item">
+                <h3><strong><a href="https://www.linkedin.com/in/erabinowitz/" target="_blank">Evan Rabinowitz</a></strong> <span style="font-size: 14px">(Library Manager, Santa Clara University)</span></h3>
+                <p class="reco">It is my pleasure to recommend Anish Yadav. I have enjoyed my time working with Anish. He is extremely enthusiastic in his work and effortlessly picked up the intricacies of his position with minimal supervision. He is an extremely dependable person and a pleasure to work alongside. All in all, his presence would be a boon to any organization.</p>
+              </div>
+
+              <div class="contact-info-item">
+                <h3><strong><a href="https://www.linkedin.com/in/kyle-piotrowski-93195398/" target="_blank">Kyle Piotrowski</a></strong> <span style="font-size: 14px">(Library Supervisor, Santa Clara University)</span></h3>
+                <p class="reco">As Anish's supervisor, I have seen nothing but professionalism. He is a dependable employee whose work has been commendable and sets a good standard that I believe his peers should follow. As for his amiability, it doesn't stop with patrons for he also shares it with his coworkers and provides support to those of us when need it. To all those considering hiring Anish: he is a great employee, a wonderful person, and you would be rather fortunate to be working with him.</p>
+              </div>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3><strong>Email</strong></h3>
+                <p>yadavanish893@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3><strong>Phone</strong></h3>
+                <p>(+1) 408-495-1027</p>
+              </div>
+              <div class="contact-info-item">
+                <h3><strong>Portfolio URL</strong></h3>
+                <i class="fas fa-link fa-lg" style="color: #708090;"></i><a href="https://anish893-portfolio.netlify.app" target="_blank"> https://anish893-portfolio.netlify.app</a>
+              </div>
+              <div class="contact-info-item">
+                <h3><strong>Location</strong></h3>
+                <p><i class="fas fa-map-marker-alt fa-lg" style="color: #D22B2B"></i> San Francisco Bay Area</p>
+              </div>
+              <div class="contact-info-item">
+                <h3><strong>Follow Me</strong></h3>
+                <div class="social-links">
+                  <a href="https://www.linkedin.com/in/anishyadav/" target="_blank"><i class="fab fa-linkedin fa-2x" style="color: #0e76ab"></i></a>
+                  <a href="https://github.com/anishyadav893" target="_blank"><i class="fab fa-github fa-2x" style="color: #171515"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100052329280649" target="_blank"><i class="fab fa-facebook fa-2x" style="color: #1877f2"></i></a>
+                  <a href="https://www.instagram.com/_anishyadav_/" target="_blank"><i class="fab fa-instagram fa-2x" style="color: #cd486b"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+            <div class="pp-thumbnail">
+              <img src="img/portfolio/3.jpg" alt="pp-thumbnail">
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
